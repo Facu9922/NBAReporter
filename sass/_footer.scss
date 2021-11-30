@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Halant:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
+footer {
+  background-image: url(../img/double-bubble-dark.png);
+  h5 {
+    font-family: "Halant", serif;
+    font-weight: bolder;
+    font-size: x-large;
+    color:rgb(218, 0, 55)
+       
+  }
+  p {
+    font-family: "Halant", serif;
+    font-size: large;
+    color:rgb(218, 0, 55)
+    
+    
+     }
+  img {
+    width: 50px;
+    background-image: url(../img/double-bubble.png);
+  }
+}
+
+.infofooter{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.listapie{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    h4{
+        color: rgb(218, 0, 55);
+    }
+    h5{
+        font-size: medium;
+        list-style: circle;
+        color: white;
+    }
+    a{
+        text-decoration: none;
+    }
+}
+@each $icono in facebook, ig, yt, spotify{
+	.#{$icono}-icon{
+		background-image:url(../img/#{$icono}.png);
+    background-color: white;
+		width: 40px;
+		height: 40px;
+		background-size:100%;
+		list-style: none;
+    display: inline-block;
+
+	}
+}

@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Halant:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
+nav img{
+    width: 100px;
+}
+h1{
+    font-family: "Halant", serif;
+    color: rgb(218, 0, 55);
+}
+h2{
+    font-family: "Halant", serif;
+    font-weight: bolder;
+    background-color: rgb(73, 73, 73);
+    color: honeydew;
+}
+h3{
+    font-family: "Halant", serif;
+    font-weight: bolder;
+    background-color: grey;
+    color: honeydew;
+}
+h4{
+    font-family: "Halant", serif;
+    font-weight: bolder;
+    
+}
+h5{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bolder;
+    
+}
+p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bolder;
+}
+.textura{
+    background-image: url(../img/double-bubble-dark.png);
+}
+.textura2{
+    background-image: url(../img/double-bubble-outline.png);
+}

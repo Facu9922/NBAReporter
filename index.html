@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portal deportivo sobre toda la actualidad de la NBA, sus mejores jugadores">
+    <meta name="keywords"
+        content="NBA, Basketball, Basket, LeBron James, Kyrie Irving, Chicago Bulls, Los Ángeles Lakers, Campazzo, Deck, Bolmaro, argentinos NBA"
+        <-- Bootstrap CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- mi CSS -->
+    <link rel="stylesheet" href="sass/estilos.css">
+    <title>NBA Reporter</title>
+</head>
+
+<body>
+    <header class="navegador">
+        <!-- bloque 1 -->
+        <nav class="navegador__menu nav navbar navbar-expand-lg navbar-dark bg-dark textura">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="navegador__img" src="img/logoweb.png" alt="NBA Reporter">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto my-2 mb-lg-0">
+                        <li class="navegador__botonera nav-item">
+                            <a class="navegador__boton nav-link" aria-current="page"
+                                href="conferenciaoeste.html">Conferencia Oeste</a>
+                        </li>
+                        <li class="navegador__botonera nav-item">
+                            <a class="navegador__boton nav-link" href="conferenciaeste.html">Conferencia Este</a>
+                        </li>
+                        <li class="navegador__botonera nav-item">
+                            <a class="navegador__boton nav-link" href="noticias.html">Noticias</a>
+                        </li>
+                        <li class="navegador__botonera nav-item">
+                            <a class="navegador__boton nav-link" href="extras.html">Extras</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex my-5">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-danger" type="submit">Buscar</button>
+                    </form>
+                    <div class="input-group mb-auto  my-5 w-25 px-4">
+                        <input type="text" class="form-control" placeholder="Usuario" aria-label="Recipient's username"
+                            aria-describedby="button-addon2">
+                        <button class="btn btn-outline-danger" type="button" id="button-addon2">Login</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Cierra nav y bloque 1-->
+    <div class="container-sm">
+        <div class="alert alert-dismissible alert-secondary  bg-danger bg-gradient">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Oferta Especial: 6 meses de suscripción a nuestra web.</strong><button type="button"
+                class="btn btn-danger ms-3" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                data-bs-whatever="@mdo">Toda la NBA Libre de anuncios.</button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header textura">
+                            <h5 class="modal-title text-danger" id="exampleModalLabel">Suscrbite</h5>
+                            <button type="button" class="btn-close btn-light" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body textura2">
+                            <form>
+                                <div class="mb-3 text-danger">
+                                    <label for="recipient-name" class="col-form-label">Mail:</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                                <div class="mb-3 text-danger">
+                                    <label for="message-text " class="col-form-label">Mensaje:</label>
+                                    <textarea class="form-control" id="message-text"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer textura text-danger">
+                            <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-outline-danger">Enviar Mensaje</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--bloque 2-->
+        <section class="py-2 textura2 noticia">
+            <div class="container-fluid ">
+                <div class="row">
+                    <article class="col-lg-4 noticia__principal">
+                        <img src="img/irving.jpg" alt="Irving anotando una bandeja" class="w-100 img-thumbnail noticia__imagen">
+                        <h1 class="text-danger text-center noticia__titulo">Kyrie Irving el mejor base de la NBA</h1>
+                        <p class="text-left noticia__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Odio dolores,
+                            repellat, eum aperiam vero quia aliquid blanditiis distinctio quos a adipisci eligendi nam
+                            tenetur reprehenderit officiis minus velit qui aliquam.</p>
+                    </article>
+                    <!-- Cierra Bloque 2 -->
+                    <!-- bloque 3 -->
+                    <article class="col-lg-2 noticiasecundaria">
+                        <img src="img/glenn-robinson-iii-iso-1101-784x523.jpg" alt="Robinson picando el balón"
+                            class="w-100 img-thumbnail noticiasecundaria__imagen">
+                        <h2 class="fs-6 noticiasecundaria__titulo">Robison se afirma como titular</h2>
+                        <img src="img/https___specials-images.forbesimg.com_imageserve_1208475555_0x0.jpg" alt="Giannis trotando"
+                            class="w-100 img-thumbnail noticiasecundaria__imagen">
+                        <h2 class="fs-6 noticiasecundaria__titulo">Giannis en modo MVP</h2>
+                        <img src="img/lakerss.png" alt="LeBron vs Curry"
+                            class="w-100 img-thumbnail noticiasecundaria__imagen">
+                        <h2 class="fs-6 noticiasecundaria__titulo">Partidazo Lakers y Warriors</h2>
+
+                    </article>
+                    <!-- cierra bloque 3 -->
+                    <!-- Bloque 4 -->
+                    <article class="col-lg-2 noticiatres">
+                        <div>
+                            <h3 class="fs-5 noticiatres__titulo">El duelo mas esperado <br> en el MSG</h3>
+                            <p>El Madison Square Garden <br> se viste de gala para este <br> impresionante duelo.</p>
+                            <br>
+                            <h3 class="fs-5 noticiatres__titulo">La perdición de Lillard</h3>
+                            <p>Lillard no levanta su nivel y <br> su equipo sufre <br> las consecuencias.</p>
+                            <br>
+                            <h3 class="fs-5 noticiatres__titulo">Los Bulls 2021</h3>
+                            <p>Los Chicago Bulls se <br> renuevan de cara a la nueva <br> temporada.</p>
+                        </div>
+                    </article>
+                    <article class="col-lg-2 noticiatres">
+                        <div class="noticiatres__imagenes2">
+                            <img class="w-100 py-2 img-thumbnail" src="img/boston.png" alt="Boston vs New York">
+                            <img class="w-100 py-2 img-thumbnail"
+                                src="img/merlin_168451203_493eb598-93f6-47dc-9140-c8bd94b620da-mobileMasterAt3x.jpg"
+                                alt="Lillard pensante">
+                            <img class="w-100 img-thumbnail" src="img/bulls.jpeg" alt="Chicago Bulls 2021">
+                        </div>
+                    </article>
+                    <!-- Cierra bloque 4 -->
+                    <article class="col-lg-2">
+                        <div class="fs-4">
+                            <h4>Headlines</h4>
+                            <ul>
+                                <li>
+                                    <h5>41 puntos de Tatum</h5>
+                                </li>
+                                <li>
+                                    <h5>AD domina a los Kings</h5>
+                                </li>
+                                <li>
+                                    <h5>Jordan dio que hablar</h5>
+                                </li>
+                                <li>
+                                    <h5>Campazzo récord en asistencias</h5>
+                                </li>
+                                <li>
+                                    <h5>Gabi Deck anota 20 puntos</h5>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                    <h2 class="textura">Real Time</h2>
+                    <div class="card-group">
+                        <div class="card">
+                            <img class="w-50 mx-auto d-block" src="img/lC3YnIYF_400x400.jpg" class="card-img-top"
+                                alt="Adrian Wojnarowski">
+                            <div class="card-body">
+                                <h5 class="card-title">Adrian Wojnarowski</h5>
+                                <p class="card-text">Longtime NBA assistant Kaleb Canales has been named the associate
+                                    head
+                                    coach for Mexico's national basketball team, sources tell ESPN. Canales will assist
+                                    Mexico
+                                    in the upcoming FIBA Americas qualifying tournament for the 2023 World Cup.</p>
+                                <a href="https://twitter.com/wojespn/status/1458505909546668040" target="blank"
+                                    class="btn btn-primary">Ir Twitter</a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img class="w-50 mx-auto d-block" src="img/seikVSHv_400x400.jpg" class="card-img-top"
+                                alt="NBA Latam">
+                            <div class="card-body">
+                                <h5 class="card-title">NBA Latam</h5>
+                                <p class="card-text">Abrazar la pelota como Carmelo Cara
+                                    #LakeShow</p>
+                                <img class="w-50 me-auto d-block py-2" src="img/FD4z1EsXoAAqVdV.jfif" alt="Carmelo">
+
+                                <a href="https://twitter.com/NBALatam/status/1458660399298097153" target="blank"
+                                    class="btn btn-primary">Ir Twitter</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="w-50 mx-auto d-block" src="img/4D5slyzm_400x400.jpg" class="card-img-top"
+                                alt="Bleacher Report">
+                            <div class="card-body">
+                                <h5 class="card-title">Bleacher Report</h5>
+                                <p class="card-text">MALIK MONK.
+                                    He’s got 27
+                                    (via @NBA
+                                    )</p>
+                                <video class="w-75 me-auto d-block py-2" src="video/JhCycg_dMy3LSaTP.mp4" autoplay muted
+                                    loop></video>
+
+                                <a href="https://twitter.com/BleacherReport/status/1458674210864128001" target="blank"
+                                    class="btn btn-primary">Ir Twitter</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <footer class=" pie py-2 bg-dark textura">
+                        <h5>Nuestro Newsletter</h5>
+                        <div class="cotainer-fluid">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Suscrbite al Newsletter"
+                                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                                <button class="btn btn-outline-secondary" type="button"
+                                    id="button-addon2">Suscribirse</button>
+                            </div>
+                        </div>
+                        <div class="infofooter">
+                            <div class="redes">
+                                <p>Siguenos en:</p>
+                                <ul>
+                                    <a href="#">
+                                        <li class="facebook-icon"></li>
+                                    </a>
+                                    <a href="#">
+                                        <li class="ig-icon"></li>
+                                    </a>
+                                    <a href="#">
+                                        <li class="yt-icon"></li>
+                                    </a>
+                                    <a href="#">
+                                        <li class="spotify-icon"></li>
+                                    </a>
+                                </ul>
+                            </div>
+                            <div class="listapie">
+                                <h5>Nuestra Empresa</h5>
+                                <ul>
+                                    <li>
+                                        <a href="extras.html">
+                                            <h5>Quienes somos</h5>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <h5>Trabaja con nosotros</h5>
+                                    </li>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
