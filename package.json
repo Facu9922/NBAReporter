@@ -1,0 +1,23 @@
+{
+  "name": "repositorio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Facu9922/NBAReporter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Facu9922/NBAReporter/issues"
+  },
+  "homepage": "https://github.com/Facu9922/NBAReporter#readme",
+  "description": "",
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
